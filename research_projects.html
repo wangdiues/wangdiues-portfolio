@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Projects | Wangdi Wangdi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Library for Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Wangdi</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research_projects.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="awards.html">Awards</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Research & Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h1 data-aos="fade-down">Research & Projects</h1>
+
+            <!-- Project 1 -->
+            <div class="project" data-aos="fade-up">
+                <img src="images/abies_habitat_map.jpg" alt="Abies densa Habitat Map" class="project-img">
+                <h2>Spatial Distribution and Climate Resilience of <em>Abies densa</em></h2>
+                <p>Developed high-resolution habitat suitability models for <em>Abies densa</em> using species occurrence and climate projections. Future projections revealed a contraction of suitable habitats under SSP scenarios.</p>
+                <ul>
+                    <li>MaxEnt modeling with future climate scenarios</li>
+                    <li>Priority conservation zones identified</li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project" data-aos="fade-up">
+                <img src="images/quercus_kde_map.jpg" alt="Quercus Species Hotspot Map" class="project-img">
+                <h2>Spatial Ecology and Climate Niche Modeling of <em>Quercus</em> Species</h2>
+                <p>Mapped distributions of dominant <em>Quercus</em> species across Bhutan’s elevational gradients. Richness hotspots were found between 2000–3200 m, driven by temperature and precipitation gradients.</p>
+                <ul>
+                    <li>MaxEnt modeling with high AUC (>0.91)</li>
+                    <li>Kernel Density Estimation for diversity hotspots</li>
+                    <li>Climate-driven species zonation</li>
+                </ul>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project" data-aos="fade-up">
+                <img src="images/forest_cluster.jpg" alt="Forest Cluster Analysis" class="project-img">
+                <h2>Forest Dynamics and Vegetation Structure in Unmanaged Forests</h2>
+                <p>Surveyed vegetation patterns and classified forests into Subtropical, Warm Broadleaved, and Cool Broadleaved types based on elevation gradients. Conducted Canonical Correspondence Analysis to link species composition with environmental factors.</p>
+                <ul>
+                    <li>170 tree species, 140 shrubs, 204 ground vegetation species</li>
+                    <li>CCA: Elevation, temperature, and evapotranspiration were major drivers</li>
+                </ul>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project" data-aos="fade-up">
+                <img src="images/saltlick_wildlife.jpg" alt="Wildlife at Salt Licks" class="project-img">
+                <h2>Wildlife Use of Natural Salt Licks</h2>
+                <p>Analyzed the chemical properties of natural salt licks and documented wildlife usage through camera traps. Barking Deer, Assamese Macaque, and Himalayan Serow were among the most frequent visitors.</p>
+                <ul>
+                    <li>10 natural salt lick sites monitored</li>
+                    <li>300 camera trap days and 1400+ animal photos</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Wangdi Wangdi | <a href="mailto:your-email@example.com">Email</a> | <a href="https://www.linkedin.com/in/wangdi-wangdi/" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
